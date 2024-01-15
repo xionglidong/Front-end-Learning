@@ -1,4 +1,5 @@
 **Understanding of async/await**
+
 Async/await is actually the syntax sugar of Generator. The effect it can achieve can be realized by the then chain. It was developed to optimize the then chain. Literally, async is the abbreviation of "asynchronous", await is waiting, so it is easy to understand that async is used to declare that a function is asynchronous, and await is used to wait for an asynchronous method to complete. Of course, the syntax forces that await can only appear in the asnyc function.
 
 An async function returns a Promise object. Async functions, including function statements, function expressions, and Lambda expressions, all return a Promise object. If a literal value is returned from the function, async wraps this value with Promise.resolve(), converting it into a Promise object. 
